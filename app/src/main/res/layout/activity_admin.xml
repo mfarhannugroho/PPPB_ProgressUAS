@@ -10,7 +10,7 @@
         android:id="@+id/viewHeaderBg"
         android:layout_width="match_parent"
         android:layout_height="165sp"
-        android:background="@color/blue"
+        android:background="@color/green"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -22,7 +22,7 @@
         android:layout_marginTop="25sp"
         android:fontFamily="@font/poppins_bold"
         android:text="Dashboard Admin"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,8 +44,8 @@
         android:layout_marginEnd="25sp"
         android:layout_marginRight="25sp"
         android:src="@drawable/baseline_add_24"
-        app:tint="@color/blue"
-        app:backgroundTint="@color/white"
+        app:tint="@color/green"
+        app:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/headerDashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/headerDashboard"
@@ -71,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textDashboard"
-                android:text="Tambahkan Perjalanan"
+                android:text="Buat Perjalanan Anda"
                 android:fontFamily="@font/poppins_bold"
                 android:textColor="@color/black"
                 android:textSize="16sp"

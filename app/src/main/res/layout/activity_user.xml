@@ -25,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav"
-        app:itemIconSize="35sp">
+        app:itemIconSize="35sp"
+        android:background="@color/white">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 

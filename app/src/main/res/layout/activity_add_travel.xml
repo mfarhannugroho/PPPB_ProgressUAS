@@ -15,7 +15,7 @@
             android:id="@+id/addHeaderBg"
             android:layout_width="match_parent"
             android:layout_height="125sp"
-            android:background="@color/blue"
+            android:background="@color/green"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -27,7 +27,7 @@
             android:layout_marginTop="25sp"
             android:fontFamily="@font/poppins_bold"
             android:text="Dashboard Admin"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +65,7 @@
             app:cardCornerRadius="16sp"
             app:layout_constraintTop_toBottomOf="@+id/addHeaderBg"
             app:layout_constraintBottom_toBottomOf="@+id/addHeaderBg"
-            android:backgroundTint="#ffca36">
+            android:backgroundTint="#FAF1ED">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -77,8 +77,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_bold"
-                    android:text="Tambahkan Perjalanan"
-                    android:textColor="@color/white"
+                    android:text="Tambahkan Perjalanan!"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

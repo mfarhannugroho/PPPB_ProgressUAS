@@ -67,7 +67,7 @@
                     android:layout_centerVertical="true"
                     android:fontFamily="@font/poppins_regular"
                     android:text="Forget Password?"
-                    android:textColor="@color/blue" />
+                    android:textColor="@color/green" />
 
             </RelativeLayout>
 
@@ -81,7 +81,8 @@
             style="@style/bt_style"
             android:textAllCaps="false"
             android:text="Login"
-            android:fontFamily="@font/poppins_bold"/>
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="17sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -98,7 +99,7 @@
                 android:textSize="12sp"/>
             <TextView
                 android:id="@+id/tv_login_register"
-                android:textColor="@color/blue"
+                android:textColor="@color/green"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" Register"

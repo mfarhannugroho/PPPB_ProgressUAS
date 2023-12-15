@@ -23,7 +23,7 @@
 
     <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
         <!-- Customize the colorAccent to change the color of the selected date -->
-        <item name="colorAccent">@color/blue</item>
+        <item name="colorAccent">@color/green</item>
     </style>
 
 </resources>
